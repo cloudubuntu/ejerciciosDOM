@@ -1,22 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Chibilisco Alan">
-    <meta name="description" content="Practica de javascript DOM">
-    <meta name="keywords" content="javascript, DOM, HTML, CSS, bootstrap">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
-</head>
-<body>
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Chibilisco Alan" />
+    <meta name="description" content="Practica de javascript DOM" />
+    <meta name="keywords" content="javascript, DOM, HTML, CSS, bootstrap" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Ejercicio N°1-DOM</title>
+  </head>
+  <body>
+    <header class="bg-dark text-white-50 text-center container my-5">
+      <h1>Adivina adivinador!!</h1>
+    </header>
+    <main>
+      <section class="container bg-dark text-white-50 text-center my-5">
+        <h3>Adivina un numero entre 0 y 10</h3>
+      </section>
+      <section class="text-center container" id="father">
+        <button class="btn btn-dark" onclick="init()">Comenzar el juego</button>
 
-
+        <!-- <div class="container">
+          <h5 class="bg-dark text-center text-white-50 my-5">
+            Intenta adivinar
+          </h5>
+          <input type="number" id="input" />
+          <button class="btn btn-dark" onclick="probar()">Enviar</button>
+        </div> -->
+      </section>
+    </main>
+    <footer></footer>
 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/app.js"></script>
-</body>
+  </body>
 </html>
+
+
+<!-- <h2>GANASTE!!</h2> -->
